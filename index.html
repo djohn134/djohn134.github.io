@@ -20,17 +20,17 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<span class="icon fa-gem"></span>
+							<img src="images/me.jpg" class="me_img">
 						</div>
 						<div class="content">
 							<div class="inner">
 								<h1>Dan Johns</h1>
-								<p>My name is Dan Johns and I'm a second-year graduate student in astronomy at Georgia State University under the guidance of Dr. Fabien Baron. I'm interested in interacting binary stars, starspots, and exoplanets. I did my undergrad at Kutztown University of Pennsylvania. During my undergrad I was also a Fire Direction Sergeant in the 28th Infantry Division. My free time is usually spent at the dog park or at home relaxing. I am always listening to music (bands like Turnstile, Title Fight, etc.) and I like going to hardcore shows.</p>
+								<p>My name is Dan Johns and I'm a second-year graduate student in astronomy at Georgia State University under the guidance of Dr. Fabien Baron. I'm interested in interacting binary stars, starspots, and exoplanets. I did my undergrad at Kutztown University, situated 50 miles northwest of Philadelphia. During my undergrad I served in the 109th Field Artillery Batallion and was also a Fire Direction Sergeant in the 28th Infantry Division. My free time is usually spent at the dog park or at home relaxing. I am always listening to music whether it be hardcore, pop punk, or rap; and I enjoy going to shows.</p>
 							</div>
 						</div>
 						<nav>
 							<ul>
-								<li><a href="#intro">Intro</a></li>
+								<!-- <li><a href="#intro">Intro</a></li> -->
 								<li><a href="#research">Research</a></li>
 								<li><a href="#cv">CV</a></li>
 								<li><a href="#contact">Contact</a></li>
@@ -43,56 +43,55 @@
 					<div id="main">
 
 						<!-- Intro -->
-							<article id="intro">
+							<!-- <article id="intro">
 								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-							</article>
+								
+								<h3>Academic Life</h3>
+								<p>Hello! I am currently a 2nd year grad student at GSU. I am currently working with Dr. Fabien Baron on ways to improve image reconstruction in optical interferometry and Doppler imaging through dynamical imaging regularzation.</p>
+								<p>I grew up in Schuylkill County, PA and received my B.S. in Physics/Astronomy from Kutztown University where I worked with Dr. Phill Reed on Doppler tomography of interacting Algol-type binaries and confirming exoplanet transits for the KELT network. I spent a summer at the University of Southern Queensland for an REU where I worked on revising exoplanet characteristics and commissioning the MINERVA-Australis array.</p>
+								
+								<h3>Personal Life</h3>
+								<span class="image main"><img src="images/bjj.jpg" alt=""/></span>
+								<p></p>
+							</article> -->
 
-						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Work</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+						<!-- Research -->
+							<article id="research">
+								<h2 class="major">Research</h2>
+								<h3 style="text-align: center">Dynamical Imaging</h3>
+								<span class="image main">
+									<table>
+										<tr>
+											<td>
+												<img src="images/in.png" alt=""/>
+											</td>
+											<td>
+												<img src="images/out.png" alt=""/>
+											</td>
+										</tr>
+									</table>
+								</span>
+								<p>My current work focuses on developing an open-source Doppler imaging, interferometric imaging, and light curve inversion-capable code and using dynamical imaging regularizers to recover high fidelity images of stellar surfaces. Traditional imaging campaigns produce snapshots of a star's surface that are not correlated in time. Dynamical imaging utilizes whole datasets to produce a series of frames over many rotations of the star. This provides the advantage of being able to produce movies of a star's surface. The specific dynamical regularizers I am interested in recover a pixel-velocity field on the star's surface that can be used to smoothly evolve the star and interpolate frames. These recovered pixel-velocity fields will hopefully be used to reveal the nature of differential rotation and track spots over time to study stellar dynamos.</p>
+								<h3 style="text-align: center">Exoplanets</h3>
+								<span class="image main"><img src="images/kelt.jpg" alt=""/></span>
+								<p>Throughout my undergrad I was heavily involved with photometric follow up for the KELT network. I helped lead the discovery of KELT-23Ab, a hot Jupiter on a death spiral into its host star that is close to the TESS and JWST continuous viewing zones. I was fortunate enough to be able to work with the team at the University of Southern Queensland on several projects such as revising exoplanet parameters using newly released Gaia data, photometric commissioning of the MINERVA-Australis array, and decomposing high eccentricity, single planet systems into multi planet, low eccentricity systems. </p>
+								<h3 style="text-align: center">Interacting Binaries</h3>
+								<span class="image main"><img src="images/bet_lyr.gif" alt=""/></span>
+								<p> In my undergrad I was also very fortunate to work on a very exciting class of binary stars known as interacting Algol-type binaries. These stars show a mass transfer stream that builds a transient, unstable accretion disk. When observed these systems fall into one of two states: a stream-dominated state or a disk-dominated state. Interacting algols can oscillate between these states by an unknown mechanism and at an unknown timescale. Under the guidance of Dr. Phill Reed I used the technique of back projection Doppler tomography to indirectly image the different accretion features present in the system in the hopes of learning about the cycles that modulate the stream's strength and disperse the transient accretion annulus.</p>
 							</article>
 
 						<!-- About -->
-							<article id="about">
-								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+							<article id="cv">
+								<h2 class="major">Curriculum Vitae</h2>
+								<span><embed src="data/CV_current.pdf" width="100%" height="800pix" type="application/pdf"></span>
 							</article>
 
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form>
+								<p>Email: johns[at]astro.gsu.edu</p>
 								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://github.com/djohn134" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</article>
 
@@ -342,7 +341,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>. Background: Christopher Palumbo 2016.</p>
 					</footer>
 
 			</div>
